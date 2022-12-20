@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-import math
+import time
 
 def solar_energy_control(Kp, Ki, Kd, setpoint, solar_energy_production, solar_irradiance, dt):
     # Initialize errors
